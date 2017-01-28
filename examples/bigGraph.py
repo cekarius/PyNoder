@@ -1,10 +1,10 @@
 import sys
 from PyQt5 import QtGui, QtWidgets, QtCore
 
-from graph_view import GraphView
-from graph_view_widget import GraphViewWidget
-from node import Node
-from port import InputPort, OutputPort, IOPort
+from pynoder.graph_view import GraphView
+from pynoder.graph_view_widget import GraphViewWidget
+from pynoder.node import Node
+from pynoder.port import InputPort, OutputPort, IOPort
 
 app = QtWidgets.QApplication(sys.argv)
 

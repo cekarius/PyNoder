@@ -1,13 +1,8 @@
 from setuptools import setup
 
-def readme():
-    with open('README.md') as f:
-        return f.read()
-
 setup(name='pynoder',
-      version='1.0',
+      version='1.0.1',
       description='A Python and PyQt5 package for creating a node-based editor.',
-      long_description=readme(),
       url='https://github.com/johnroper100/PyNoder',
       author='John Roper',
       author_email='johnroper100@gmail.com',
