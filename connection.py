@@ -122,11 +122,11 @@ class Connection(QtWidgets.QGraphicsPathItem):
 
                 self.__graph.removeConnection(self)
 
-                from . import mouse_grabber
+                from . import mouse_actions
                 if delta.x() < 0:
-                    mouse_grabber.MouseGrabber(self.__graph, pos, self.__srcPortCircle, 'In')
+                    mouse_actions.MouseGrabber(self.__graph, pos, self.__srcPortCircle, 'In')
                 else:
-                    mouse_grabber.MouseGrabber(self.__graph, pos, self.__dstPortCircle, 'Out')
+                    mouse_actions.MouseGrabber(self.__graph, pos, self.__dstPortCircle, 'Out')
 
         else:
             super(Connection, self).mouseMoveEvent(event)
