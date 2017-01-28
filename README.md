@@ -1,2 +1,2 @@
-# PyNode
-A Python and PyQt5 node-based editor
+# PyNoder
+A Python and PyQt5 package for creating a node-based editor.
