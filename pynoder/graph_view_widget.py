@@ -20,7 +20,7 @@ import sys
 from PyQt5 import QtGui, QtWidgets, QtCore
 from PyQt5.QtCore import QObject, pyqtSignal
 
-from graph_view import GraphView
+from .graph_view import GraphView
 
 
 class GraphViewWidget(QtWidgets.QWidget):

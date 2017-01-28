@@ -23,10 +23,10 @@ from past.builtins import basestring
 from PyQt5 import QtGui, QtWidgets, QtCore
 from PyQt5.QtCore import QObject, pyqtSignal
 
-from node import Node
-from connection import Connection
+from .node import Node
+from .connection import Connection
 
-from selection_rect import SelectionRect
+from .selection_rect import SelectionRect
 
 
 class GraphView(QtWidgets.QGraphicsView):

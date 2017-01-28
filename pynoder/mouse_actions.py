@@ -17,8 +17,8 @@
 # along with PyNoder.  If not, see <http://www.gnu.org/licenses/>.
 # ##### END GPL LICENSE BLOCK #####
 from PyQt5 import QtGui, QtCore
-from port import PortCircle, PortLabel
-from connection import Connection
+from .port import PortCircle, PortLabel
+from .connection import Connection
 
 
 class MouseGrabber(PortCircle):

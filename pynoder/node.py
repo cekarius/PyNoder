@@ -19,7 +19,7 @@
 import math
 import json
 from PyQt5 import QtGui, QtWidgets, QtCore
-from port import InputPort, OutputPort
+from .port import InputPort, OutputPort
 from PyQt5.QtCore import QObject, pyqtSignal
 
 
