@@ -130,7 +130,7 @@ class Node(QtWidgets.QGraphicsWidget):
         self.__color = self.__defaultColor
 
         self.setMinimumWidth(150)
-        self.setMinimumHeight(90)
+        self.setMinimumHeight(100)
         self.setSizePolicy(QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding))
 
         layout = QtWidgets.QGraphicsLinearLayout()

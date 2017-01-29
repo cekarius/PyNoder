@@ -271,7 +271,7 @@ class PortCircle(QtWidgets.QGraphicsWidget):
 
         scenePos = self.mapToScene(event.pos())
 
-        from mouse_actions import MouseGrabber
+        from .mouse_actions import MouseGrabber
         if self.isInConnectionPoint():
             MouseGrabber(self._graph, scenePos, self, 'Out')
         elif self.isOutConnectionPoint():
