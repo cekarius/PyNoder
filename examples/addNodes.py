@@ -67,7 +67,7 @@ class NodesWidget(QWidget):
         graph.addNode(node)
         
         widget.show()
-
+print(sys.executable)
 app = QApplication(sys.argv)
 main = MyMainWindow()
 main.show()
